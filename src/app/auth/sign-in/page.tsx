@@ -13,7 +13,7 @@ export default function SignInPage() {
           <h1 className="text-3xl font-bold">Sign in to your account</h1>
           <p className="mt-2 text-sm text-gray-600">
             Or{' '}
-            <Link href="/signup" className="font-medium text-blue-600 hover:text-blue-500">
+            <Link href="/auth/sign-up" className="font-medium text-blue-600 hover:text-blue-500">
               create a new account
             </Link>
           </p>
@@ -44,7 +44,7 @@ export default function SignInPage() {
             </div>
 
             <div className="text-sm">
-              <a href="/forget" className="font-medium text-blue-600 hover:text-blue-500">
+              <a href="/auth/forget" className="font-medium text-blue-600 hover:text-blue-500">
                 Forgot your password?
               </a>
             </div>

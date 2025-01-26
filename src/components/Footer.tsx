@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     <footer className="bg-gray-800 text-white py-4 mt-8">
       <div className="container mx-auto flex flex-col items-center">
         <div className="mb-4">
-          <p>© {new Date().getFullYear()} Garage Management System. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} GearTech. All rights reserved.</p>
         </div>
         <div className="flex space-x-6">
           <Link href="https://www.facebook.com" target="_blank" className="hover:text-gray-400">

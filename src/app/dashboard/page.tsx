@@ -26,13 +26,13 @@ export default function DashboardPage() {
     <div className="flex h-screen bg-gray-100">
       {/* Sidebar */}
       <aside className="w-64 bg-white p-6 shadow-md">
-        <h1 className="mb-10 text-2xl font-bold">GMS</h1>
+        <h1 className="mb-10 text-2xl font-bold">GearTech</h1>
         <nav className="space-y-4">
-          <Link href="#" className="flex items-center space-x-2 text-gray-700 hover:text-gray-900">
+          <Link href="/vehicles" className="flex items-center space-x-2 text-gray-700 hover:text-gray-900">
             <Car className="h-5 w-5" />
             <span>Vehicles</span>
           </Link>
-          <Link href="#" className="flex items-center space-x-2 text-gray-700 hover:text-gray-900">
+          <Link href="/service" className="flex items-center space-x-2 text-gray-700 hover:text-gray-900">
             <Wrench className="h-5 w-5" />
             <span>Services</span>
           </Link>
@@ -41,7 +41,7 @@ export default function DashboardPage() {
             <Bell className="h-5 w-5" />
             <span>New Request</span>
           </Link>
-          <Link href="#" className="flex items-center space-x-2 text-gray-700 hover:text-gray-900">
+          <Link href="/settings" className="flex items-center space-x-2 text-gray-700 hover:text-gray-900">
             <Settings className="h-5 w-5" />
             <span>Settings</span>
           </Link>
@@ -54,10 +54,10 @@ export default function DashboardPage() {
 
         {/* Stat Cards */}
         <div className="mb-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          <StatCard title="Total Vehicles" value="24" icon={<Car className="h-6 w-6" />} />
-          <StatCard title="In Service" value="7" icon={<Wrench className="h-6 w-6" />} />
-          <StatCard title="Completed Today" value="5" icon={<Car className="h-6 w-6" />} />
-          <StatCard title="Pending" value="12" icon={<Bell className="h-6 w-6" />} />
+          <StatCard title="Total Vehicles" value="5" icon={<Car className="h-6 w-6" />} />
+          <StatCard title="In Service" value="1" icon={<Wrench className="h-6 w-6" />} />
+          <StatCard title="Completed Today" value="1" icon={<Car className="h-6 w-6" />} />
+          <StatCard title="Pending" value="3" icon={<Bell className="h-6 w-6" />} />
         </div>
 
         {/* Recent Activities and Vehicles in Garage */}
